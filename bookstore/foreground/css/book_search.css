@@ -1,0 +1,79 @@
+.top{
+
+    background:gainsboro;
+
+    height: 20px;
+
+
+}
+#top{
+    float: right;
+    margin-right: 10%;
+
+
+}
+.top a{
+    text-decoration:none ;
+
+}
+.search{
+
+    text-align: center;
+
+
+}
+#search{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.search input{
+
+    border-color:blueviolet;
+    width:300px;
+    height: 30px;
+
+
+
+}
+.search button{
+
+    width: 60px;
+    height: 27px;
+    position: relative;
+    left: -65px;
+
+    border: none;
+    background: blueviolet;
+
+
+}
+.container img{
+
+    margin-bottom: 100px;
+
+
+
+}
+.row{
+
+    text-align: center;
+
+
+
+}
+.thumbnail{
+    width: 200px;
+    height: 330px;
+
+    margin-left: 45px;
+
+}
+.caption{
+
+    margin-top: -50px;
+}
+.gwc{
+    position: fixed;
+}

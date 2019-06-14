@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>修改留言</h1>
+<form method="post" action="__URL__/updateMessage">
+    <input type="hidden" name="id" value="<{$edit.id}>">
+    留言标题：
+    <input type="text" name="updateTitle" value="<{$edit.title}>"><br/><br/>
+    留言内容：
+    <textarea cols="50" rows="6" name="updateContent"><{$edit.content}></textarea><br/><br/>
+    留言作者：
+    <input type="text" name="updateAuthor" value="<{$edit.author}>"><br/><br/>
+    <button type="submit">确认修改</button>
+</form>
+<a href="__URL__/message">返回首页</a>
+</body>
+</html>

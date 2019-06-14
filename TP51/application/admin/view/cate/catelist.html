@@ -1,0 +1,41 @@
+{layout name="public/layout"}
+<h4 class="text-center text-success">用户列表</h4>
+<table class="table table-default table-hover text-center">
+    <tr>
+        <td>ID</td>
+        <td>栏目名称</td>
+        <td>排序</td>
+        <td>状态</td>
+        <td>创建时间</td>
+        <td colspan="2">操作</td>
+    </tr>
+    {volist name="cateList" id="cate" empty="$empty"}
+    <tr>
+        <td>{$cate.id}</td>
+        <td>{$cate.name}</td>
+        <td>{$cate.sort}</td>
+        {eq name="$cate.status" value="1"}
+        <td style="color: green">显示</td>
+        {else /}
+        <td style="color:grey">隐藏</td>
+        {/eq}
+        <td>{$cate.create_time}</td>
+
+        <td><a href="{:url('cate/cateEdit',['id'=>$cate.id])}">编辑</a> </td>
+
+
+        <td><a href="" onclick="del(); return false;" >删除</a> </td>
+
+    </tr>
+    {/volist}
+
+</table>
+<a class="btn btn-info" href="{:url('cate/add')}" role="button">添加分类</a>
+<script type="text/javascript">
+    function del(){
+        if(confirm('你是真的要删除吗?')==true){
+            window.location.href="{:url('cate/del',['id'=>$cate.id])}";
+        }
+    }
+
+</script>

@@ -1,0 +1,10 @@
+[ 2019-05-26T20:25:09+08:00 ] ::1 /lab08/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.055623s ]
+
+[ 2019-05-26T20:25:17+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+

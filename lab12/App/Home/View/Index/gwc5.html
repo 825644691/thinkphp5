@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+            <volist id="vo" name="vo" value="23">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">订单号码：<{:mt_rand(999999999999,10000000000000000)}> </h3>
+                    </div>
+                    <div class="panel-body">
+
+                    <table id="J_tab_fam" border="1" align="center">
+                    <tr>
+                        <td></td>
+                        <td>书名</td>
+                        <td>价格</td>
+                        <td>作者</td>
+                        <td>数量</td>
+                    </tr>
+                <tr>
+                    <td>
+                        <img src="__PUBLIC__/IMAGE/<{$vo.image}>">
+                    </td>
+                    <td>
+                        <{$vo.book_name}>
+                    </td>
+                    <td><{$vo.price}></td>
+                    <td><{$Think.session.author}></td>
+                    <td>1本</td>
+
+
+                </tr>
+
+            </volist>
+        </table>
+    </div>
+</div>
+
+            <div align="right">
+            <a href="__URL__/destroy" class="btn btn-primary" role="button">
+                返回首页
+            </a>
+            </div>
+
+
+
+</body>
+</html>

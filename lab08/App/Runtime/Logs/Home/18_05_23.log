@@ -1,0 +1,651 @@
+[ 2018-05-23T09:03:17+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016682s ]
+
+[ 2018-05-23T09:03:18+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-23T09:03:19+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:20+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.3109231465560576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:20+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.3109231465560576?0.19554476848936741
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:20+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.3109231465560576?0.19554476848936741?0.2700025553118637
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:24+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.3109231465560576?0.19554476848936741?0.2700025553118637?0.6812681213187088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:24+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.3109231465560576?0.19554476848936741?0.2700025553118637?0.6812681213187088?0.015153863649183252
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:53+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2018-05-23T09:03:53+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:03:54+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-05-23T09:03:54+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:04:16+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-05-23T09:04:16+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:06:24+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-05-23T09:06:24+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:06:26+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.4335242162497668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:06:26+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.4335242162497668?0.62492976084935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:06:26+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.4335242162497668?0.62492976084935?0.5078913823815039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:06:31+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.4335242162497668?0.62492976084935?0.5078913823815039?0.0753996615332726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:07:03+08:00 ] ::1 /lab08/index.php/Home/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-05-23T09:07:33+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-05-23T09:07:35+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-05-23T09:07:35+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('Public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 非法操作:{:U('Public
+
+[ 2018-05-23T09:11:45+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-05-23T09:11:45+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:11:46+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-05-23T09:11:46+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:11:46+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-05-23T09:11:46+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:11:47+08:00 ] ::1 /lab08/index.php/Home/Index/undefined?0.9974074942295765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 非法操作:undefined
+
+[ 2018-05-23T09:11:47+08:00 ] ::1 /lab08/index.php/Home/Index/undefined?0.1285576676559672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 非法操作:undefined
+
+[ 2018-05-23T09:13:42+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-05-23T09:13:42+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:01+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-05-23T09:14:01+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:02+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-05-23T09:14:02+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:04+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-05-23T09:14:04+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:09+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.4105325668431272
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:30+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-05-23T09:14:30+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:14:31+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-05-23T09:14:31+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:19:19+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-05-23T09:19:19+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:19:21+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-05-23T09:19:21+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:22:16+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-05-23T09:22:16+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:22:16+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-05-23T09:22:16+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:22:17+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2018-05-23T09:22:17+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:23:07+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-05-23T09:23:07+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:23:12+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+
+[ 2018-05-23T09:23:13+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-05-23T09:23:14+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:23:15+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.6380233759476594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:23:15+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.6380233759476594?0.6038456401980499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:23:15+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D?0.6380233759476594?0.6038456401980499?0.9777691599903562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:26:30+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-05-23T09:26:30+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:32:16+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2018-05-23T09:32:16+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:37:58+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2018-05-23T09:37:58+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:38:54+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-05-23T09:38:58+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-23T09:38:58+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:39:22+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-05-23T09:39:23+08:00 ] ::1 /lab08/index.php/Home/Index/%7B:U('public/$verify')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 非法操作:{:U('public
+
+[ 2018-05-23T09:39:44+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-05-23T09:39:44+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-05-23T09:41:04+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-05-23T09:41:05+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-05-23T09:45:34+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2018-05-23T09:45:34+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-05-23T09:45:58+08:00 ] ::1 /lab08/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2018-05-23T09:45:58+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-05-23T09:46:01+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-05-23T09:46:01+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-05-23T09:46:08+08:00 ] ::1 /lab08/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-05-23T09:46:11+08:00 ] ::1 /lab08/index.php/Home/Index/__URL__/addMsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:__URL__
+
+[ 2018-05-23T09:46:15+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-23T09:46:21+08:00 ] ::1 /lab08/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-23T09:46:21+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-05-23T09:55:24+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-05-23T09:55:29+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY id  [ RunTime:0.0006s ]
+
+[ 2018-05-23T09:55:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0004s ]
+
+[ 2018-05-23T09:55:34+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-05-23T09:55:35+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-05-23T09:55:38+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0003s ]
+
+[ 2018-05-23T09:55:45+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-05-23T09:56:45+08:00 ] ::1 /lab08/index.php/Home/Index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-05-23T09:56:48+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-05-23T09:56:50+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-05-23T10:02:22+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-05-23T10:02:23+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2018-05-23T10:02:34+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-05-23T10:02:34+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-05-23T10:02:35+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-05-23T10:05:47+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-05-23T10:06:00+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2018-05-23T10:06:07+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-05-23T10:06:24+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-05-23T10:06:30+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-23T10:06:57+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-05-23T10:08:28+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-05-23T10:10:14+08:00 ] ::1 /lab08/index.php/Home/Index/homework/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-05-23T10:10:17+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY time  [ RunTime:0.0004s ]
+
+[ 2018-05-23T10:10:19+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+
+[ 2018-05-23T10:10:21+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY title  [ RunTime:0.0004s ]
+

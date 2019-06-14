@@ -1,0 +1,6 @@
+[ 2018-06-07T17:28:25+08:00 ] ::1 /lab08/index.php/home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063691s ]
+ERR: 非法操作:message
+

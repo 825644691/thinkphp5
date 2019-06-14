@@ -1,0 +1,26 @@
+[ 2018-06-08T21:34:21+08:00 ] ::1 /lab08/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027596s ]
+ERR: 非法操作:message
+
+[ 2018-06-08T21:34:27+08:00 ] ::1 /lab08/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-06-08T21:34:45+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2018-06-08T21:50:33+08:00 ] ::1 /lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-06-08T21:50:33+08:00 ] ::1 /lab08/index.php/Home/public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+

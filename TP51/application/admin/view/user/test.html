@@ -1,0 +1,15 @@
+
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        var r = $.get( "test", function( data ) {
+            $( "body" ).append( "aaa" );
+        });
+        r.done(function ()
+        {
+            $("body").append("bbb");
+        })
+    });
+
+</script>

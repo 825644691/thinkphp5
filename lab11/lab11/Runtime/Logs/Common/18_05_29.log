@@ -1,0 +1,6 @@
+[ 2018-05-29T09:52:46+08:00 ] ::1 /lab11/index.php/lab11/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:Lab11
+

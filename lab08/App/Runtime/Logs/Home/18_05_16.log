@@ -1,0 +1,1871 @@
+[ 2018-05-16T18:21:27+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037342s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0141s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.024433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013216s ]
+
+[ 2018-05-16T18:21:27+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-05-16T18:21:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:25:23+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-05-16T18:25:26+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:25:26+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:25:26+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:25:28+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:26:59+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2018-05-16T18:27:00+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:27:00+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:27:05+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:31:08+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0009s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2018-05-16T18:41:58+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2018-05-16T18:44:08+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index: db_name E:\wamp\www\lab08\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `mysql`.`tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM mysql.tp_message  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2018-05-16T18:44:10+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:44:12+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:44:12+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:44:12+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:44:14+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:44:14+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-16T18:45:29+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2018-05-16T18:45:31+08:00 ] ::1 /lab08/index.php/Home/Index/del4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: DELETE FROM `tp_message` WHERE `id` = '20' [ RunTime:0.0003s ]
+
+[ 2018-05-16T18:49:05+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:49:46+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:49:47+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:49:48+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:50:07+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 1054:Unknown column '留言内容' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` ORDER BY 留言内容 
+
+[ 2018-05-16T18:50:09+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 1054:Unknown column '留言内容' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` ORDER BY 留言内容 
+
+[ 2018-05-16T18:51:02+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:51:02+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE ( status=1 ) ORDER BY 留言内容 
+
+[ 2018-05-16T18:51:29+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 1054:Unknown column '留言内容' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` ORDER BY 留言内容 
+
+[ 2018-05-16T18:51:57+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-05-16T18:52:06+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-05-16T18:52:36+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2018-05-16T18:52:43+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2018-05-16T18:53:37+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-05-16T18:53:37+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-05-16T18:53:38+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-05-16T18:53:55+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-05-16T18:53:59+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-05-16T18:54:00+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-05-16T18:54:00+08:00 ] ::1 /lab08/index.php/home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-05-16T18:54:11+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-05-16T18:54:15+08:00 ] ::1 /lab08/index.php/home/index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-05-16T18:55:02+08:00 ] ::1 /lab08/index.php/home/index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-05-16T18:55:02+08:00 ] ::1 /lab08/index.php/home/index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-05-16T18:55:15+08:00 ] ::1 /lab08/index.php/home/index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2018-05-16T18:55:16+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-05-16T18:55:17+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-05-16T18:56:05+08:00 ] ::1 /lab08/index.php/home/index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-05-16T18:56:08+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-05-16T18:56:09+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T18:56:12+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T18:56:15+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T18:56:51+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T18:56:51+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T18:57:15+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-05-16T18:57:16+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0002s ]
+
+[ 2018-05-16T18:58:17+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-05-16T18:58:18+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:02:22+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-05-16T19:03:00+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-05-16T19:03:01+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:03:02+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:03:08+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:03:09+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:03:25+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-05-16T19:03:26+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:03:27+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:09:00+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-05-16T19:09:01+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:09:12+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2018-05-16T19:09:13+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:09:25+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-05-16T19:09:27+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:10:16+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-05-16T19:10:16+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:10:18+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:10:18+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:10:18+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:11:37+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-05-16T19:11:38+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:34+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-05-16T19:13:35+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:36+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:37+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:37+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:53+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-05-16T19:13:54+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:55+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:55+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:13:55+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0002s ]
+
+[ 2018-05-16T19:13:55+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:14:28+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-05-16T19:14:28+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:14:29+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:19:26+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-05-16T19:19:28+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:19:29+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:19:29+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:19:34+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-05-16T19:19:34+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:19:36+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:20:57+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-05-16T19:20:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:20:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:20:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:24:48+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-05-16T19:24:48+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:24:49+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:25:10+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-05-16T19:25:10+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:25:18+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-05-16T19:25:19+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:25:46+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-05-16T19:25:47+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:54:09+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2018-05-16T19:54:10+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:54:19+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-05-16T19:54:20+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:54:25+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-05-16T19:54:30+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-05-16T19:54:50+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-05-16T19:54:58+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-05-16T19:54:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:57:03+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-05-16T19:57:26+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-16T19:57:26+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:57:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:57:34+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:57:47+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-05-16T19:58:53+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-05-16T19:58:54+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T19:59:24+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-05-16T19:59:25+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:00:48+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-05-16T20:00:49+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:04:50+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-05-16T20:04:51+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:04:52+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:04:52+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:04:52+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:04:53+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:05:09+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Object of class Think\Model to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:05:10+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-05-16T20:05:13+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2018-05-16T20:05:28+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-05-16T20:05:56+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2018-05-16T20:05:57+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:05:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:05:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:05:58+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:06:06+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-05-16T20:06:06+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:06:07+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wamp\www\lab08\App\Home\Controller\IndexController.class.php 第 20 行.
+
+[ 2018-05-16T20:06:48+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T20:06:48+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:12:15+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-05-16T20:12:16+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:12:16+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:12:18+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:25:02+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2018-05-16T20:25:30+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-05-16T20:25:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:25:34+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:25:48+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-05-16T20:25:50+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:26:12+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-05-16T20:26:13+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:26:29+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2018-05-16T20:26:30+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:26:35+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:26:41+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T20:26:42+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:26:52+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T20:26:53+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:28:43+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-05-16T20:28:43+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:28:45+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:28:57+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-05-16T20:28:59+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:29:00+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:29:00+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:29:09+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-05-16T20:29:11+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:03+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-05-16T20:36:05+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:05+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:06+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:30+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T20:36:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:32+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:39+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2018-05-16T20:36:40+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:36:58+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-05-16T20:37:22+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-05-16T20:37:23+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:37:24+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:37:27+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:37:42+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-05-16T20:37:43+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0002s ]
+
+[ 2018-05-16T20:40:08+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-05-16T20:40:09+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-16T20:40:10+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:13+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:14+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:14+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:14+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:52+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-05-16T20:40:53+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:40:59+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-16T20:41:00+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:41:03+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-05-16T20:41:05+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:41:21+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-05-16T20:41:22+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-16T20:42:30+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-05-16T20:42:31+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+
+[ 2018-05-16T20:42:37+08:00 ] ::1 /lab08/index.php/home/index/homework
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2018-05-16T20:42:38+08:00 ] ::1 /lab08/index.php/Home/Index/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` ORDER BY title  [ RunTime:0.0003s ]
+

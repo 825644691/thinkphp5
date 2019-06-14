@@ -1,0 +1,145 @@
+{{extend name="public/base" /}}
+{{block name="js"}}
+<script>
+    $(function () {
+        bindcountEvent();
+        // $(".allcount").text("");
+        // var sum = 0;
+        // $.each($(".allprice"),function () {
+        //     var summ = $(this).text()*1;
+        //     sum += summ;
+        // });
+        // console.log(sum);
+        // $(".allcount").text(sum);
+
+    });
+    function bindcountEvent() {
+        $("tbody #number").bind("input propertychange",function () {
+            $(this).parent().parent().children(":eq(5)").text("");
+            var number = $(this).val();
+            var price = ($(this).parent().parent().children(":eq(4)").text())*number;
+            $(this).parent().parent().children(":eq(5)").text(price);
+            // var sum = 0;
+            // $.each($(".allprice"),function () {
+            //     var summ = $(this).text()*1;
+            //     sum += summ;
+            // });
+            // console.log(price);
+            // $(".allcount").text(sum);
+
+
+        })
+
+    }
+    function choose(nid) {
+        var choice = $("#inlineCheckbox"+nid);
+        var allcount = $(".allcount");
+        var sum = allcount.text()*1;
+        if(!choice.attr("checked")){
+            choice.attr("checked",true);
+            sum += choice.parent().parent().children(":eq(5)").text()*1;
+            allcount.text(sum);
+        }else{
+            choice.attr("checked",false);
+            sum -= choice.parent().parent().children(":eq(5)").text()*1;
+            allcount.text(sum);
+        }
+
+    }
+    function addNumber(ths,nid) {
+        number = $(ths).parent().children(":eq(1)").val();
+        var choice = $("#inlineCheckbox"+nid);
+        sum = number*1+1;
+        $(ths).parent().children(":eq(1)").val(sum);
+        var price = ($(ths).parent().parent().children(":eq(4)").text())*sum;
+        $(ths).parent().parent().children(":eq(5)").text(price);
+        if(choice.attr("checked")){
+            var allcount = $(".allcount");
+            var sum = allcount.text()*1;
+            sum += $(ths).parent().parent().children(":eq(4)").text()*1;
+            console.log(sum);
+            allcount.text(sum)
+        }
+
+    }
+    function minNumber(ths,nid){
+        number = $(ths).parent().children(":eq(1)").val();
+        var choice = $("#inlineCheckbox"+nid);
+        console.log(number);
+        sum = number*1-1;
+        $(ths).parent().children(":eq(1)").val(sum);
+        var price = ($(ths).parent().parent().children(":eq(4)").text())*sum;
+        $(ths).parent().parent().children(":eq(5)").text(price);
+        if(choice.attr("checked")){
+            var allcount = $(".allcount");
+            var sum = allcount.text()*1;
+            sum -= $(ths).parent().parent().children(":eq(4)").text()*1;
+            console.log(sum);
+            allcount.text(sum)
+        }
+    }
+    function submitOrder() {
+        let dic = new FormData()
+        $.each($("input[name='checkname']"), function () {
+            if($(this).attr("checked")){
+                bid = $(this).attr("value");
+                bnumber = $(this).parent().parent().children(":eq(3)").children(":eq(1)").val();
+                dic.append(bid,bnumber);
+
+
+
+
+
+            }
+        });
+
+        $.ajax({
+            url: "{{:url('index/index/order')}}",
+            data: dic,
+            type: "post",
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                location.href="index";
+            }
+
+        })
+    }
+</script>
+{{/block}}
+{{block name="body"}}
+<table class="table table-condensed">
+    <caption>精简表格布局</caption>
+    <thead>
+    <tr>
+        <th></th>
+        <th>样品</th>
+        <th>书名</th>
+        <th><span style="padding-left: 10px">数量</span></th>
+        <th>单价</th>
+        <th>总价</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{volist name="shop" id="s" empty="$empty"}}
+    <tr>
+        <td><input name="checkname" onclick="choose('{{$s.id}}')" type="checkbox" id="inlineCheckbox{{$s.id}}" value="{{$s.id}}"></td>
+        <td><img src="{{$s.src}}" width="50px" alt=""></td>
+        <td style="padding-top: 20px;">{{$s.name}}</td>
+        <td style="padding-top: 20px;"><span onclick="minNumber(this,'{{$s.id}}')" class="glyphicon glyphicon-minus-sign"></span>
+            <input id="number" type="text" style="width: 3%;height: 25px;" value="{{$s.number}}"><span onclick="addNumber(this,'{{$s.id}}')" class="glyphicon glyphicon-plus-sign"></span></td>
+        <td style="padding-top: 20px;">{{$s.price}}</td>
+        <td class="allprice" style="padding-top: 20px;">{{$s.allprice}}</td>
+    </tr>
+    {{/volist}}
+    </tbody>
+</table>
+<div class="buttom">
+<div class="buy">
+    <button onclick="submitOrder()" style="float: right;" type="button" class="btn btn-primary btn-lg ">提交</button>
+    <span class="allcount">0</span>
+    <span style="float: right; font-size: 30px;padding-right: 10px">总价</span>
+</div>
+</div>
+
+{{/block}}

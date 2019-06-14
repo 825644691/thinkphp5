@@ -1,0 +1,13 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper
+indicator-dots='{{true}}'
+indicator-color='#fff'
+indicator-active-color='#f00'
+autoplay='{{true}}'
+circular='{{true}}'
+bindchange='setCurrent'
+bindtap='goto'>
+<swiper-item wx:for='{{images}}'>
+<image src='/images/{{item.file}}/'></image>
+</swiper-item>
+</swiper>

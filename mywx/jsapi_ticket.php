@@ -1,0 +1,1 @@
+<?php exit();?>{"ticket":"HoagFKDcsGMVCIY2vOjf9nbVxnB4wSd5Dm3wk7KS0j4BWh_EZ5soyp9KwvamXQdmEDMmwu-oSTVhq6ZtWT-Saw","expire_time":1529639028}

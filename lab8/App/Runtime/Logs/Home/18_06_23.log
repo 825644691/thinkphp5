@@ -1,0 +1,45 @@
+[ 2018-06-23T17:13:47+08:00 ] ::1 /lab8/index.php/Home/Index/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059115s ]
+
+[ 2018-06-23T17:13:53+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%2%' ORDER BY id  [ RunTime:0.0006s ]
+
+[ 2018-06-23T17:13:57+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%2%' ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2018-06-23T17:13:57+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%2%' ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2018-06-23T17:14:01+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%1%' ORDER BY id  [ RunTime:0.0003s ]
+

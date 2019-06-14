@@ -1,0 +1,6 @@
+[ 2019-05-27T18:09:43+08:00 ] ::1 /lab8/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007074s ]
+ERR: 模板不存在:./App/Home/View/Index/index.html
+

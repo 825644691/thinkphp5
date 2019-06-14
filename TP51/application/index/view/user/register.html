@@ -1,0 +1,76 @@
+
+<div class="col-md-8">
+    <div class="page-header">
+        <form class="form-horizontal " method="post" id="register_form" >
+            <div class="form-group">
+                <label for="username" class="col-sm-2 control-label">用户名</label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" class="form-control" id="username" placeholder="用户名">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">邮箱</label>
+                <div class="col-sm-10">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="邮箱">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mobile" class="col-sm-2 control-label">手机</label>
+                <div class="col-sm-10">
+                    <input type="text" name="mobile" class="form-control" id="mobile" placeholder="手机">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-10">
+                    <input type="password" name="password" class="form-control" id="password" placeholder="密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password_confirm" class="col-sm-2 control-label">确认密码</label>
+                <div class="col-sm-10">
+                    <input type="password" name="password_confirm" class="form-control" id="password_confirm" placeholder="确认密码">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" class="btn btn-primary" id="register">注册</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+            </form>
+    </div>
+</div>
+    <script>
+
+        $(function(){
+            $('#register').on('click',function(){
+                $(".error-message").remove();
+                //获取表单数据alert($('#register_form').serialize());
+                $.ajax({
+                    type:'post',
+                    url:"{:url('index/user/insert')}",
+                    data:$('#register_form').serialize(),
+                    dataType:'json',
+                    success:function(data){
+                        if (!data.status){
+                              $.each(data.message,function (k,v) {
+                                  var tags = document.createElement("span");
+                                  tags.className = "error-message";
+                                  tags.innerText = v;
+                                  tags.style.color="red";
+                                  $("#register_form input[name="+ k +"]").after(tags);
+                              })
+                        } else
+                        {
+                            location.reload();
+                        }
+
+                    }
+                })
+            })
+
+        })
+    </script>
+

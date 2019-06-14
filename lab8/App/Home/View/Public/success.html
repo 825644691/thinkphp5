@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>success</title>
+</head>
+<body>
+    <div>
+        <p>可以哦，搞定了</p>
+        <p>操作人：1640129230-彭卓熳</p>
+        <p class="success">页面提示信息：<?php echo($message); ?></p>
+        <p class="jump">
+            页面自动跳转到 <a id="href" href="<?php echo($jumpUrl); ?>"><{$jumpUrl}></a>
+        </p>
+        <p>
+            等待时间： <b id="wait"><?php echo($waitSecond); ?></b>
+        </p>
+    </div>
+    <script type="text/javascript">
+        (function(){
+            var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+            var interval = setInterval(function(){
+                var time = --wait.innerHTML;
+                if(time <= 0) {
+                    location.href = href;
+                    clearInterval(interval);
+                };
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>

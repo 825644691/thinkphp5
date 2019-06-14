@@ -1,0 +1,31 @@
+{{extend name="public/base"}}
+{{block name="body"}}
+{{volist name="items" id="b" empty="$empty"}}
+<table class="table table-condensed">
+    <caption>订单号:{{$b.id}}</caption>
+    <thead>
+    <tr>
+        <th></th>
+        <th>书名</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>总价</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{volist name="$b.name" id="v"}}
+    <tr>
+        <td><img src="/tp5/public/static/images/book{{$v.book_id}}.png" width="20px" alt=""></td>
+        <td>{{$v.bookname}}</td>
+        <td>{{$v.money}}</td>
+        <td>{{$v.count}}</td>
+        <td>{{$v.allprice}}</td>
+    </tr>
+    {{/volist}}
+    </tbody>
+</table>
+<hr>
+{{/volist}}
+</body>
+</html>
+{{/block}}

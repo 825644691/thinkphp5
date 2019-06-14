@@ -1,0 +1,102 @@
+[ 2018-04-03T14:45:25+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'thinkphp'
+
+[ 2018-04-03T14:47:50+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'thinkphp'
+
+[ 2018-04-03T14:47:51+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'thinkphp'
+
+[ 2018-04-03T14:47:58+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'thinkphp'
+
+[ 2018-04-03T14:49:30+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'thinkphp'
+
+[ 2018-04-03T14:52:45+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'lxlxllx'
+
+[ 2018-04-03T14:52:46+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: SQLSTATE[HY000] [1049] Unknown database 'lxlxllx'
+
+[ 2018-04-03T15:14:20+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: 模板不存在:./App/Home/View/Index/data.html
+
+[ 2018-04-03T15:14:21+08:00 ] ::1 /lab05/index.php/home/Index/data
+ERR: 模板不存在:./App/Home/View/Index/data.html
+
+[ 2018-04-03T15:14:29+08:00 ] ::1 /lab05/index.php/home/Index/data.php
+ERR: 非法操作:data.php
+
+[ 2018-04-03T15:14:53+08:00 ] ::1 /lab05/index.php/home/Index/data.php
+ERR: 非法操作:data.php
+
+[ 2018-04-03T15:14:54+08:00 ] ::1 /lab05/index.php/home/Index/data.php
+ERR: 非法操作:data.php
+
+[ 2018-04-03T15:15:21+08:00 ] ::1 /lab05/index.php/home/Index/data.php
+ERR: 非法操作:data.php
+
+[ 2018-04-03T15:15:22+08:00 ] ::1 /lab05/index.php/home/Index/data.php
+ERR: 非法操作:data.php
+
+[ 2018-04-03T15:16:33+08:00 ] ::1 /lab05/index.php/home/Index/da
+ERR: 模板不存在:./App/Home/View/Index/da.html
+
+[ 2018-04-03T15:21:10+08:00 ] ::1 /lab05/index.php/home/Index/da
+ERR: 模板不存在:./App/Home/View/Index/da.html
+
+[ 2018-04-03T15:21:23+08:00 ] ::1 /lab05/index.php/home/index/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:28:11+08:00 ] ::1 /lab05/index.php/home/del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:28:17+08:00 ] ::1 /lab05/index.php/home/Del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:28:47+08:00 ] ::1 /lab05/index.php/home/Del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:29:31+08:00 ] ::1 /lab05/index.php/home/del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:29:40+08:00 ] ::1 /lab05/index.php/home/Del/index
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:30:02+08:00 ] ::1 /lab05/index.php/home/Del/del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:31:03+08:00 ] ::1 /lab05/index.php/home/Del/del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:31:07+08:00 ] ::1 /lab05/index.php/home/Del
+ERR: 无法加载控制器:Del
+
+[ 2018-04-03T15:32:52+08:00 ] ::1 /lab05/index.php/home/Del
+ERR: 非法操作:index
+
+[ 2018-04-03T15:37:18+08:00 ] ::1 /lab05/index.php/home/index/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:37:31+08:00 ] ::1 /lab05/index.php/home/index/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:38:05+08:00 ] ::1 /lab05/index.php/home/index/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:40:40+08:00 ] ::1 /lab05/index.php/home/index/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:41:29+08:00 ] ::1 /lab05/index.php/home/index/Del/del?id=<{vo.id}>
+ERR: 非法操作:del
+
+[ 2018-04-03T15:41:35+08:00 ] ::1 /lab05/index.php/home/index/Del/del
+ERR: 非法操作:del
+
+[ 2018-04-03T15:41:37+08:00 ] ::1 /lab05/index.php/home/index/Del/del
+ERR: 非法操作:del
+
+[ 2018-04-03T15:41:38+08:00 ] ::1 /lab05/index.php/home/index/Del/del
+ERR: 非法操作:del
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<table border="1">
+    <h2><a href="__URL__/destroy">注销</a></h2>
+    <volist name="list" id="vo">
+        <tr>
+            <td>
+                <{$vo.id}>
+            </td>
+            <td>
+                <{$vo.title}>
+            </td>
+            <td><{$vo.content}></td>
+            <td><{$vo.auther}></td>
+            <td><{$vo.time}></td>
+            <td><a href="__URL__/del?id=<{$vo.id}>">删除</a></td>
+            <td><span onclick='del2(this,"<{$vo.id}>")'>删除</span></td>
+            <td><span onclick="del3(this,'<{$vo.id}>')">删除</span></td>
+            <td><span onclick="del4(this,'<{$vo.id}>')">删除</span></td>
+
+        </tr>
+
+
+    </volist>
+
+</table>
+</body>
+<script type="text/javascript" src="__PUBLIC__/jquery-1.11.2.js"></script>
+<script type="text/javascript">
+    function del2(obj,id){
+        $.post('__URL__/del2',{id:id},function(data){
+           alert(data);
+            if(data==1){
+                $(obj).parent().parent().remove();
+                alert('删除成功');
+
+            }else
+            alert("失败");
+        });
+
+    }
+    function del3(obj,id){
+        $.post('__URL__/del3',{id:id},function(data){
+
+           if(data.code==200){
+
+               alert(data,info);
+
+           }else{
+               alert(data,info);
+           }
+        },'json');
+    }
+    function del4(obj,id){
+        $.post('__URL__/del4',{id:id},function(data){
+           alert(data);
+            if(data.code==200){
+                $(obj).parent().parent().remove();
+                alert(data.info);
+
+            }else
+            alert(data.info);
+
+        });
+    }
+</script>
+
+</html>

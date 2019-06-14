@@ -1,0 +1,47 @@
+{extend name="public/base" /}
+{block name="body"}
+<div class="col-md-8">
+    <div class="page-header">
+        <h2>文章发布</h2>
+        <form action="{:url('index/index/save')}"  method="post" id="login" enctype="multipart/form-data">
+            <input type="hidden" name="user_id" value="{$Think.session.user_id}"/>
+            <div class="form-group">
+                <label for="title" class="control-label">标题</label>
+                    <input type="text" name="title" class="form-control" id="title" placeholder="title">
+            </div>
+            <div class="form-group">
+                <label for="title" class="control-label">分类</label>
+                <select name="cate_id" id="cate_id" class="form-control">
+                        {volist name="cateList" id="cate"}
+                        <option value="{$cate.id}">{$cate.name}</option>
+                    {/volist}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="content" class="control-label">内容</label>
+                <textarea name="content" id="content" cols="30" rows="10" class="form-control" placeholder="文章内容">
+
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="title_img" class="control-label">标题图片</label>
+                <input type="file" name="title_img" class="form-control" id="title_img" placeholder="图片">
+            </div>
+
+
+
+            <div class="form-group">
+
+                    <button type="submit" class="btn btn-primary" id="submit">发布</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+    <script type="text/javascript">
+        bkLib.onDomLoaded(function() {
+            new nicEditor({iconsPath : '/../TP51/public/static/js/nicEditorIcons.gif'}).panelInstance('content');
+        });
+    </script>
+{/block}

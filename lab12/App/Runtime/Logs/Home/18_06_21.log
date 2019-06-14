@@ -1,0 +1,10 @@
+[ 2018-06-21T18:18:27+08:00 ] ::1 /lab12/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022496s ]
+
+[ 2018-06-21T18:19:32+08:00 ] ::1 /lab12/index.php/home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+

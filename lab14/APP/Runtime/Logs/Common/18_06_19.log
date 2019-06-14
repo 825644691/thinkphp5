@@ -1,0 +1,30 @@
+[ 2018-06-19T19:04:23+08:00 ] ::1 /lab14/index.php/jw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Jw
+
+[ 2018-06-19T19:09:02+08:00 ] ::1 /lab14/index.php/jw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Jw
+
+[ 2018-06-19T19:39:27+08:00 ] ::1 /lab14/index.php/jw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Jw
+
+[ 2018-06-19T19:39:27+08:00 ] ::1 /lab14/index.php/jw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Jw
+
+[ 2018-06-19T19:39:27+08:00 ] ::1 /lab14/index.php/jw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Jw
+

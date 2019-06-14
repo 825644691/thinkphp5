@@ -1,0 +1,46 @@
+[ 2018-07-10T10:18:02+08:00 ] ::1 /teacher//index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+
+[ 2018-07-10T10:18:10+08:00 ] ::1 /teacher/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2018-07-10T10:18:13+08:00 ] ::1 /teacher/index.php/Home/Index/swi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+
+[ 2018-07-10T10:18:16+08:00 ] ::1 /teacher/index.php/home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-07-10T10:18:44+08:00 ] ::1 /teacher/index.php/Home/Index/swi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2018-07-10T10:18:59+08:00 ] ::1 /teacher/index.php/Home/Index/si
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tp_teacher` [ RunTime:0.0055s ]
+SQL: INSERT INTO `tp_teacher` (`time`,`start_time`,`end_time`) VALUES ('否','2018-07-10 10:07:44','2018-07-10 10:07:59') [ RunTime:0.0041s ]
+
+[ 2018-07-10T10:19:17+08:00 ] ::1 /teacher/index.php/Home/Index/estimate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+

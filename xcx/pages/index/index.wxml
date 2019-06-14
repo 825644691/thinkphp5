@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<view>你点击我{{counter}}次</view>
+<button bindtap='increase()'>点击我</button>

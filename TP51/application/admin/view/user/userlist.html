@@ -1,0 +1,47 @@
+{layout name="public/layout"}
+<h4 class="text-center text-success">用户列表</h4>
+<table class="table table-default table-hover text-center">
+    <tr>
+        <td>ID</td>
+        <td>用户名</td>
+        <td>邮箱</td>
+        <td>手机号</td>
+        <td>注册时间</td>
+        <td>身份</td>
+        <td>状态</td>
+        <td colspan="2">操作</td>
+    </tr>
+  {volist name="userList" id="user" empty="$empty"}
+    <tr>
+        <td>{$user.id}</td>
+        <td>{$user.name}</td>
+        <td>{$user.email}</td>
+        <td>{$user.mobile}</td>
+        <td>{$user.create_time}</td>
+        <td>{if $user.is_admin=="超级管理员"}
+                <font style="color: red">超级管理员</font>
+            {else /}
+            <font style="color: green">普通会员</font>
+            {/if}
+
+
+        </td>
+        <td>{$user.status}</td>
+        {eq name="$user.id" value="$Think.session.user_id"}
+        <td><a href="{:url('user/userEdit',['id'=>$user.id])}">编辑</a> </td>
+        {/eq}
+        {neq name="$user.id" value="$Think.session.user_id"}
+        <td><a href="" onclick="del(); return false;" >删除</a> </td>
+        {/neq}
+    </tr>
+    {/volist}
+
+</table>
+<script type="text/javascript">
+        function del(){
+            if(confirm('你是真的要删除吗?')==true){
+                window.location.href="{:url('user/del',['id'=>$user.id])}";
+            }
+        }
+
+</script>

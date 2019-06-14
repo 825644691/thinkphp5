@@ -1,0 +1,58 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="panel panel-default">
+        <div class="panel-heading" align="left"><h1>       登陆</h1></div>
+
+        <form action="/lab12/index.php/Home/Login/log" method="post" class="form-horizontal" >
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="form-group">
+                    <label for="firstname" class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="username" placeholder="请输入用户名" style="width:200px;">
+                    </div>
+                </div>
+
+            </li>
+            <li class="list-group-item">
+                <div class="form-group">
+                    <label for="lastname" class="col-sm-2 control-label">密码</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="password" placeholder="请输入密码" style="width:200px;" >
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="form-group">
+                    <label for="lastname" class="col-sm-2 control-label">验证码</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="code" placeholder="请输入验证码" style="width:200px;" >
+                    </div>
+                </div>
+
+            </li>
+            <li class="list-group-item">
+
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <img src="<?php echo U('public/verify');?>" onclick='this.src = this.src+"?"+Math.random();'>
+            </li>
+            <li class="list-group-item">
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">登录</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+[ 2018-05-16T18:48:57+08:00 ] ::1 /lab06/index.php/home/Index/homework1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012860s ]
+
+[ 2018-05-16T20:14:38+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-05-16T20:14:56+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-05-16T20:14:58+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-05-16T20:14:58+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-05-16T20:14:58+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2018-05-16T20:14:59+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-05-16T20:16:20+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-05-16T20:16:25+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-05-16T20:17:04+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 1146:Table 'mysql.tp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_` ORDER BY title 
+
+[ 2018-05-16T20:17:05+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 1146:Table 'mysql.tp_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `tp_` ORDER BY title 
+
+[ 2018-05-16T20:17:36+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-05-16T20:21:24+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+
+[ 2018-05-16T20:21:42+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-05-16T20:21:43+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-05-16T20:23:45+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-05-16T20:23:46+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-05-16T20:24:25+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-05-16T20:27:04+08:00 ] ::1 /lab06/index.php/home/index/homework6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+

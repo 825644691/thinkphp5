@@ -1,0 +1,255 @@
+[ 2018-05-17T19:51:27+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086526s ]
+
+[ 2018-05-17T19:52:00+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-05-17T19:52:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tp_message` WHERE `title` LIKE '%2%' ORDER BY id  [ RunTime:0.0552s ]
+
+[ 2018-05-17T19:56:24+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-05-17T19:56:28+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY title  [ RunTime:0.0226s ]
+
+[ 2018-05-17T19:56:35+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY title  [ RunTime:0.0005s ]
+
+[ 2018-05-17T19:56:37+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-17T19:56:38+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-17T19:56:40+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/orderMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY author  [ RunTime:0.0005s ]
+
+[ 2018-05-17T20:00:14+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2018-05-17T20:00:17+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY title  [ RunTime:0.0005s ]
+
+[ 2018-05-17T20:00:19+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0005s ]
+
+[ 2018-05-17T20:00:22+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY content  [ RunTime:0.0004s ]
+
+[ 2018-05-17T20:00:25+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2018-05-17T20:09:29+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-05-17T20:09:31+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-05-17T20:09:46+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-05-17T20:09:48+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-05-17T20:09:54+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-05-17T20:10:10+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-05-17T20:10:10+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-05-17T20:40:28+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-05-17T20:41:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-05-17T20:41:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-05-17T20:41:32+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY title  [ RunTime:0.0006s ]
+
+[ 2018-05-17T20:41:43+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY title  [ RunTime:0.0005s ]
+
+[ 2018-05-17T20:41:44+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-17T20:41:47+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY content  [ RunTime:0.0004s ]
+
+[ 2018-05-17T20:41:53+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0982s ]
+SQL: SELECT * FROM `tp_message` WHERE `title` LIKE '%2%' ORDER BY content  [ RunTime:0.0005s ]
+
+[ 2018-05-17T20:43:19+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-05-17T20:44:31+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-05-17T20:44:32+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-05-17T20:44:45+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0823s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%2%' ORDER BY content  [ RunTime:0.0006s ]
+
+[ 2018-05-17T20:44:48+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `tp_message` WHERE `title` LIKE '%2%' ORDER BY content  [ RunTime:0.0003s ]
+

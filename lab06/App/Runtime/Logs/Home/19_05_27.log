@@ -1,0 +1,6 @@
+[ 2019-05-27T18:09:48+08:00 ] ::1 /lab06/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005055s ]
+ERR: 非法操作:index
+

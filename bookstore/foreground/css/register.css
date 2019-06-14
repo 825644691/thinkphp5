@@ -1,0 +1,89 @@
+/*设定html和body的宽度为100%*/
+html,body{
+    width:100%;
+    color: #666;
+}
+/*设置表单边框*/
+form{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
+
+/* 文字和文本框先手同一行*/
+.register-box{
+    border: 1px solid #ddd;
+    margin-bottom: 32px;
+}
+
+
+/*设置包含input 的label属性，*/
+.register-box label{
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+
+
+
+}
+/*设置所有input 属性没有边框 */
+input{
+    outline: none;
+
+    border-style: hidden;
+
+
+}
+/*设置div中 input */
+.register-box input{
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 30px;
+    padding-top: 16px;
+    font-size: 14px;
+
+    border-style: hidden;
+
+}
+
+
+/* 设置验证码框 */
+#code{
+    display: inline-block;
+    width: 100px;
+    height: 46px;
+    vertical-align: middle;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 46px;
+}
+
+/*设置注册按钮 */
+.submit-button{
+    width: 100%;
+    height: 54px;
+    color: #ff5159;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+
+}
+/*设置注册按钮中的input */
+.submit-button input{
+    width:80px ;
+    height:30px ;
+    margin-top: 12px;
+    margin-left: 160px;
+    background-color: transparent;/* 背景为隐形*/
+    font-family: fantasy;
+
+
+
+}
+

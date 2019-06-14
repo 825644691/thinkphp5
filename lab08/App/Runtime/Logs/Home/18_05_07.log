@@ -1,0 +1,270 @@
+[ 2018-05-07T21:12:24+08:00 ] ::1 /thinkphp/lab08/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036764s ]
+
+[ 2018-05-07T21:12:30+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-05-07T21:13:03+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2018-05-07T21:14:21+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMsg?id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2018-05-07T21:18:07+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-05-07T21:18:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-05-07T22:56:32+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-05-07T22:58:32+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-05-07T22:58:34+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-05-07T22:58:36+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-05-07T22:59:55+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-05-07T22:59:57+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2018-05-07T23:00:04+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-05-07T23:00:39+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2018-05-07T23:00:44+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-05-07T23:12:43+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2018-05-07T23:12:51+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-05-07T23:12:56+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-05-07T23:12:56+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-05-07T23:14:38+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-05-07T23:14:41+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2018-05-07T23:14:48+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-05-07T23:14:48+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-05-07T23:15:03+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2018-05-07T23:15:11+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-05-07T23:15:11+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2018-05-07T23:23:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-05-07T23:23:10+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-05-07T23:23:24+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-05-07T23:23:24+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-05-07T23:25:59+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-05-07T23:26:05+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-05-07T23:26:08+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-05-07T23:26:39+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-05-07T23:26:45+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-05-07T23:26:48+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-05-07T23:26:55+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-05-07T23:26:57+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-05-07T23:26:57+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-05-07T23:27:00+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-05-07T23:27:03+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-05-07T23:27:03+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-05-07T23:36:22+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-05-07T23:36:24+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-05-07T23:36:24+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-05-07T23:36:27+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-05-07T23:36:28+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-05-07T23:36:31+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/addMsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-05-07T23:37:23+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-05-07T23:37:25+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-05-07T23:37:28+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-05-07T23:37:32+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/edit?id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-05-07T23:37:34+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/updateMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-05-07T23:37:37+08:00 ] ::1 /thinkphp/lab08/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+

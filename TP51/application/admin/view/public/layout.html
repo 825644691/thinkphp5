@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{$title|default="页面主页"}</title>
+    {load	href="__STATIC__/css/bootstrap.css"	/}
+    {load	href="__STATIC__/js/jquery-3.2.1.min.js"	/}
+    {load	href="__STATIC__/js/bootstrap.js"	/}
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            {include file="public/nav"}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">{include file="public/left"}</div>
+        <div class="col-md-10">{__CONTENT__}</div>
+    </div>
+</div>
+</body>
+</html>

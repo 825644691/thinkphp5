@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<head>
+    {{block name="css"}}{{/block}}
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="/tp5/public/static/CSS/commons.css">
+    <link rel="stylesheet" href="/tp5/public/static/CSS/bootstrap.min.css">
+    <script src="/tp5/public/static/JS/jquery-3.3.1.min.js"></script>
+    <script src="/tp5/public/static/JS/bootstrap.js"></script>
+    <script type="text/javascript" src="/tp5/public/static/dependent/FileAPI/FileAPI.min.js"></script>
+    <script type="text/javascript" src="/tp5/public/static/dependent/Jcrop/jquery.Jcrop.min.js"></script>
+    <link rel="stylesheet" href="/tp5/public/static/dependent/Jcrop/jquery.Jcrop.min.css" />
+
+    <script type="text/javascript" src="/tp5/public/static/dist/Jquery.ImageCropUpload1.js"></script>
+
+    {{block name="js"}}{{/block}}
+    <script>
+        $(function () {
+
+            bindSendMsgEvent();
+            bindRegisterEvent();
+            bindLoginEvent();
+            $(function(){
+                $('#loginUserNc,#userOprBox').mouseover(function(){
+                    $('#userOprBox').css('display', 'block');
+                    $('#loginUserNc').addClass('active');
+                }).mouseout(function () {
+                    $('#userOprBox').css('display', 'none');
+                    $('#loginUserNc').removeClass('active');
+                })
+            })
+        });
+
+        function ChangeCode(ths) {
+            ths.src += "?";
+        }
+        function bindRegisterEvent(){
+            $("#register").on('click', function () {
+                $(".error-message").remove();
+                $.ajax({
+                    url: "{{:url('index/user/register')}}",
+                    data: $("#register_form").serialize(),
+                    type: "POST",
+                    success: function (data) {
+                        if(!data.status){
+                            $.each(data.message,function (k,v) {
+                                console.log(v);
+                                var tag = document.createElement("span");
+                                tag.className = "error-message";
+                                tag.innerText=v;
+                                $("#register_form input[name="+ k +"]").after(tag);
+                            })
+                        }else{
+                            location.reload();
+                        }
+
+                    }
+                })
+            })
+        }
+        function bindSendMsgEvent() {
+            $("#sendMsg").on('click',function () {
+                $(".error-message").remove();
+                var time =60;
+
+                var ths= $(this);
+                $.ajax({
+                    url: "{{:url('index/user/sendmsg')}}",
+                    type: "POST",
+                    data: $('#email').serialize(),
+                    success: function (data) {
+                        if(data.status){
+                            var interval = setInterval(function () {
+                                ths.text("已发送"+ time +"");
+                                time -= 1;
+                                if(time <= 0){
+                                    clearInterval(interval);
+                                    ths.text("发送");
+                                }
+                            },1000)
+                        }else {
+                            var tag = document.createElement("span");
+                            tag.className = "error-message";
+                            tag.innerText = data.message;
+                            $("#email").after(tag);
+                        }
+
+
+
+                    }
+                })
+            })
+        }
+        function bindLoginEvent(){
+            $("#login").on("click", function () {
+                $(".error-message").remove();
+                $.ajax({
+                    url: "{{:url('index/user/login')}}",
+                    data: $("#login_form").serialize(),
+                    type: "post",
+                    success: function (data) {
+                        if(!data.status){
+                            alert(data.summary)
+                            $.each(data.message,function (k,v) {
+                                console.log(v);
+                                var tag = document.createElement("span");
+                                tag.className = "error-message";
+                                tag.innerText=v;
+                                $("#login_form input[name="+ k +"]").after(tag);
+                            })
+                        }else{
+                            location.reload();
+                        }
+                    }
+
+                })
+            })
+        }
+
+
+    </script>
+
+
+</head>
+<body style="width:1200px;margin: 0 160px">
+
+<nav  class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href='{{:url("index/index/index")}}'>网上商城</a>
+            
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            {{if $Think.session.is_login}}
+            <li><a href="{{:url('index/index/gwc2')}}"><span class="glyphicon glyphicon-shopping-cart active"></span> 购物车</a></li>
+            <li><img src="{{$objjj.img}}" width="40px" height="40px" style="margin-top: 5px" class="img-circle" alt=""></li>
+            <li><a id="loginUserNc" href="#">{{$Think.session.username}}</a></li>
+            {{else /}}
+            <li><a href="#" data-toggle="modal" data-target="#RegisterModal"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#LoginModal"><span class="glyphicon glyphicon-log-in" ></span>登录</a></li>
+            {{/if}}
+
+            <li> <form class="navbar-form navbar-left" role="search" action="{{:url('index/index/index')}}" method="post">
+                <div class="form-group">
+                    <input type="text" name="keyword" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">提交按钮</button>
+            </form></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel" align="center">用户注册</h4>
+            </div>
+            <div class="modal-body">
+                <!-- 用户注册-->
+
+                <form id="register_form" class="form-horizontal container" role="form">
+                    <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="text" style="width: 20%;" class="form-control" id="username" name="username" placeholder="请输入用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">邮箱</label>
+                        <div class="col-sm-10">
+                            <input type="email" style="width: 20%;" class="form-control" name="email" id="email" placeholder="请输入邮箱">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="float: left;" for="email-code" class="col-sm-2 control-label">验证码</label>
+                        <div class="col-sm-10">
+                            <input type="text" style="width: 10%;float: left;" class="form-control" name="email-code" id="email-code" placeholder="请输入邮箱验证码">
+                            <button style="float:left;margin-left: 10px;" type="button" class="btn btn-primary" id="sendMsg"> 发送
+                            </button>
+                        </div>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" style="width: 20%;" class="form-control" id="password" name="password" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">请记住我
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" id="register" class="btn btn-default">注册</button>
+                        </div>
+                    </div>
+                </form>
+
+
+
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color: palegoldenrod">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel" align="center">登陆      </h4>
+            </div>
+            <div class="modal-body">
+                <!-- 用户登陆-->
+                <div class="form-group">
+                    <h3 style="margin-left: 150px;" class="text-primary">username|email</h3>
+
+                </div>
+                <form id="login_form" class="form-horizontal container" role="form">
+                    <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="text" style="width: 20%;" class="form-control" name="username" placeholder="请输入用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="float: left;" for="email-code" class="col-sm-2 control-label">验证码</label>
+                        <div class="col-sm-10">
+                            <input type="text" style="width: 20%;float: left;" class="form-control" name="check-code" id="check-code" placeholder="请输入邮箱验证码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="float: left;" for="email-code" class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <img src="{{:captcha_src()}}" onclick="ChangeCode(this)" alt="captcha" height="70px" width="180px"/>
+                        </div>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" style="width: 20%;" class="form-control" name="password" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">请记住我
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" id="login" class="btn btn-default">登陆</button>
+                        </div>
+                    </div>
+                </form>
+
+
+
+
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+
+<div class="user-opr-box" id="userOprBox" style="left: 869px;">
+    <a href="{{:url('index/index/MyOrder')}}" style="border-top:0;">我的订单</a>
+    <a href="{{:url('index/user/edit')}}">设置</a>
+    <a class="logout" href="{{:url('index/user/logout')}}">退出</a>
+    <a href="http://www.chouti.com/c_45792645155" target="_blank" class="ie6-a">我的收藏</a>
+</div>
+{{block name="body"}}{{/block}}
+</body>
+
+</html>

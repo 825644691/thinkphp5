@@ -1,0 +1,94 @@
+.top{
+
+    background:gainsboro;
+
+    height: 20px;
+
+
+}
+#top{
+    float: right;
+    margin-right: 10%;
+
+
+}
+.top a{
+    text-decoration:none ;
+
+}
+.search{
+
+
+    text-align: center;
+
+}
+.gwc{
+    position: fixed;
+
+
+
+}
+#search{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.search input{
+
+    border-color:cornflowerblue;
+    width:300px;
+    height: 35px;
+
+
+
+}
+.search select{
+
+    border-color:cornflowerblue;
+    width:60px;
+    height: 25px;
+
+
+
+
+}
+.nav{
+
+    width: 1100px;
+    margin-left: 75px;
+
+}
+.img{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 80px;
+
+}
+.container1{
+    margin-left: 25px;
+
+}
+.container2 {
+    margin-top: 20px;
+
+}
+
+.thumbnail{
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+
+
+}
+.container3{
+    margin-left: 25px;
+
+}
+.container4 {
+    margin-top: 20px;
+
+
+}

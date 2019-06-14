@@ -1,0 +1,283 @@
+[ 2018-05-22T20:22:39+08:00 ] ::1 /lab8/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2018-05-22T20:23:08+08:00 ] ::1 /lab8/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'lxl'
+
+[ 2018-05-22T20:23:09+08:00 ] ::1 /lab8/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'lxl'
+
+[ 2018-05-22T20:23:19+08:00 ] ::1 /lab8/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-05-22T20:23:22+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0004s ]
+
+[ 2018-05-22T20:23:25+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+
+[ 2018-05-22T20:23:26+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+
+[ 2018-05-22T20:23:28+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY time  [ RunTime:0.0003s ]
+
+[ 2018-05-22T20:43:12+08:00 ] ::1 /lab8/index.php/home/index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2018-05-22T20:43:13+08:00 ] ::1 /lab8/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2018-05-22T20:43:19+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-05-22T21:28:17+08:00 ] ::1 /lab8/index.php/Home/Index/addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-05-22T21:28:22+08:00 ] ::1 /lab8/index.php/Home/Index/addMessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-05-22T21:28:22+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-05-22T21:28:30+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+
+[ 2018-05-22T21:28:32+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY time  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:28:36+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY title  [ RunTime:0.0004s ]
+
+[ 2018-05-22T21:28:40+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2018-05-22T21:28:42+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-05-22T21:28:47+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-22T21:29:02+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY id  [ RunTime:0.0004s ]
+
+[ 2018-05-22T21:29:07+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0007s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY author 
+
+[ 2018-05-22T21:29:09+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY time  [ RunTime:0.0004s ]
+
+[ 2018-05-22T21:29:12+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `content` LIKE '%%' ORDER BY id  [ RunTime:0.0004s ]
+
+[ 2018-05-22T21:29:14+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-05-22T21:29:19+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:29:23+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+ERR: 1054:Unknown column 'author' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY author 
+
+[ 2018-05-22T21:29:25+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:29:27+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY id  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:29:28+08:00 ] ::1 /lab8/index.php/Home/Index/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-05-22T21:29:31+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY content  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:29:33+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY time  [ RunTime:0.0003s ]
+
+[ 2018-05-22T21:29:35+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_message` WHERE `id` LIKE '%%' ORDER BY time  [ RunTime:0.0004s ]
+
+[ 2018-05-22T21:29:38+08:00 ] ::1 /lab8/index.php/Home/Index/queryAndOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_message` WHERE `title` LIKE '%%' ORDER BY time  [ RunTime:0.0004s ]
+
